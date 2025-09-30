@@ -12,6 +12,8 @@ public class Fichero2
         //Creamos una instancia Filr utilizando el constructor y la variable de arriba
         File archivo = new File(ruta, nombreHijo);
 
+
+
         if (ruta.exists()) {
             if (ruta.isDirectory()) {
                 //Si en la ruta el ultimo elemento es un directoruio se muestra un mensaje en pantalla de que la riuta especificada es un archivo
